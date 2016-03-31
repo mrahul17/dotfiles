@@ -1,1 +1,2 @@
-alias ytx='cd ~/Music && youtube-dl -f flv $1 -x'
+alias ytx='youtube-dl -o "~/Music/%(title)s.%(ext)s" -f flv $1 -x'
+alias yt='youtube-dl -o "~/Videos/%(title)s.%(ext)s" -f flv $1'

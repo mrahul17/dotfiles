@@ -25,7 +25,7 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 
 
 # python packages
-pip install requests mackup beautifulsoup4 youtube-dl
+sudo pip install requests mackup beautifulsoup4 youtube-dl
 echo "run mackup restore after linked with dropbox"
 
 

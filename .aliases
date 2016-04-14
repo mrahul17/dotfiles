@@ -1,2 +1,2 @@
-alias ytx='youtube-dl -o "~/Music/%(title)s.%(ext)s" -f flv $1 -x'
+alias ytx='youtube-dl -o "~/Music/%(title)s.%(ext)s" -f flv $1 --add-metadata -x'
 alias yt='youtube-dl -o "~/Videos/%(title)s.%(ext)s" -f flv $1'

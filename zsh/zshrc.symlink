@@ -38,6 +38,6 @@ do
   source $file
 done
 
-source $HOME/.aliases
+source .dotfiles/.aliases
 
 unset config_files

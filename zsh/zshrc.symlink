@@ -41,3 +41,12 @@ done
 source ~/.dotfiles/.aliases
 
 unset config_files
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# settings for global installation of npm modules
+NPM_PACKAGES="${HOME}/.npm-packages"
+PATH="$NPM_PACKAGES/bin:$PATH"
+unset MANPATH
+export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+export NODE_PATH=$NODE_PATH:/home/rahul/.npm-packages/lib/node_modules

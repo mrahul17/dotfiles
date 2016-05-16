@@ -59,12 +59,12 @@ ruby_version() {
 }
 
 rb_prompt() {
-  if ! [[ -z "$(ruby_version)" ]]
-  then
-    echo "%{$fg_bold[yellow]%}$(ruby_version)%{$reset_color%} "
-  else
+ # if ! [[ -z "$(ruby_version)" ]]
+ # then
+  #  echo "%{$fg_bold[yellow]%}$(ruby_version)%{$reset_color%} "
+ # else
     echo ""
-  fi
+ # fi
 }
 
 directory_name() {

@@ -50,4 +50,3 @@ PATH="$NPM_PACKAGES/bin:$PATH"
 unset MANPATH
 export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 export NODE_PATH=$NODE_PATH:/home/rahul/.npm-packages/lib/node_modules
-export GREP_OPTIONS="--color=always"

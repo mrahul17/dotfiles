@@ -1,2 +1,4 @@
 alias ytx='youtube-dl -o "~/Music/%(title)s.%(ext)s" --audio-format mp3 $1 --add-metadata -x --prefer-ffmpeg'
 alias yt='youtube-dl -o "~/Videos/%(title)s.%(ext)s" -f flv $1'
+alias matlab="/usr/local/MATLAB/R2016b/bin/matlab &"
+alias notrackenv="echo '.env' >> .git/info/exclude"

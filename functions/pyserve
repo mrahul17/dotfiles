@@ -1,0 +1,9 @@
+#!/bin/sh
+
+
+pyserve(){
+  ip=$(hostname -I)
+  echo "Files will be seved at $ip"
+  python -m SimpleHTTPServer
+}
+
